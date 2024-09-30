@@ -2,37 +2,44 @@
     font-family: Arial;
      background: url("https://cdn.pixabay.com/photo/2023/06/21/06/51/ai-generated-8078672_1280.jpg"); 
     background-size: cover; 
+   background-repeat: no-repeat;
  }
  .std{
    background: url("https://images.deepai.org/art-image/fcb289f53ed84d659d3cb19d2cb4b562/brahmacharya-student-with-teacher-surrounded-by-stude.jpg");
     background-size: cover;
+   background-repeat: no-repeat;
  }
  
  .BusinessGrowthDaily{
    background: url("https://www.krea.ai/api/img?f=webp&i=https%3A%2F%2Ftest1-emgndhaqd0c9h2db.a01.azurefd.net%2Fimages%2F62158a6e-fee9-4e48-9eff-c3ae7b941fe3.png ");
     background-size: cover;
+   background-repeat: no-repeat;
  }
  
  .Wprofessional{
    background: url("https://writer.me/wp-content/uploads/2019/05/certified-writers-homepage.jpg");
    background-size: cover;
    background-image: -moz-radial-gradient(cover);
+   background-repeat: no-repeat;
 }
 
   .Holidayplan{
    background: url("https://i.pinimg.com/originals/10/97/e8/1097e86a190264505edc2a30b3290774.jpg");
     background-size: cover;
     background-image: -moz-radial-gradient(cover);
+    background-repeat: no-repeat;
  }
  
   .Futureplans{
    background: url("https://kalinisanchemicals.com/wp-content/uploads/2022/10/ai-856x1024.jpg");
     background-size: cover;background-image: -moz-radial-gradient(cover);
+    background-repeat: no-repeat;
    }
   .companyProject{
    background: url("https://hrmasia.com/wp-content/uploads/2018/08/GettyImages-695671640_EDIT.jpg");
     background-size: cover;
     background-clip: border-box;
+    background-repeat: no-repeat;
  } 
   
   
