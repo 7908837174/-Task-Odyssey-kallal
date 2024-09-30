@@ -1,9 +1,183 @@
- body {
+ .mainWin {
     font-family: Arial;
+     background: url("https://cdn.pixabay.com/photo/2023/06/21/06/51/ai-generated-8078672_1280.jpg"); 
+    background-size: cover; 
  }
+ .std{
+   background: url("https://images.deepai.org/art-image/fcb289f53ed84d659d3cb19d2cb4b562/brahmacharya-student-with-teacher-surrounded-by-stude.jpg");
+    background-size: cover;
+ }
+ 
+ .BusinessGrowthDaily{
+   background: url("https://www.krea.ai/api/img?f=webp&i=https%3A%2F%2Ftest1-emgndhaqd0c9h2db.a01.azurefd.net%2Fimages%2F62158a6e-fee9-4e48-9eff-c3ae7b941fe3.png ");
+    background-size: cover;
+ }
+ 
+ .Wprofessional{
+   background: url("https://writer.me/wp-content/uploads/2019/05/certified-writers-homepage.jpg");
+   background-size: cover;
+   background-image: -moz-radial-gradient(cover);
+}
+
+  .Holidayplan{
+   background: url("https://i.pinimg.com/originals/10/97/e8/1097e86a190264505edc2a30b3290774.jpg");
+    background-size: cover;
+    background-image: -moz-radial-gradient(cover);
+ }
+ 
+  .Futureplans{
+   background: url("https://kalinisanchemicals.com/wp-content/uploads/2022/10/ai-856x1024.jpg");
+    background-size: cover;background-image: -moz-radial-gradient(cover);
+   }
+  .companyProject{
+   background: url("https://hrmasia.com/wp-content/uploads/2018/08/GettyImages-695671640_EDIT.jpg");
+    background-size: cover;
+    background-clip: border-box;
+ } 
+  
+  
+ 
 
  #main-heading{
     text-align:center;
+    background: linear-gradient(to right,green,rgb(212, 88, 26),gold,rgb(67, 67, 174), red, yellow,rgb(182, 8, 188));
+    -webkit-background-clip: text;
+    color: transparent;
  }
 
- .todo-container
+ .grid-container{
+    display: grid;
+    grid-template-columns: 200px 190px 100px;
+    column-gap: 10px;
+    row-gap: 15px;
+    margin-top: 10px ;
+    align-items: center;
+ }
+
+ #todo-input, #todo-date {
+    font-size: 20px;
+    padding: 10px 15px ;
+ }
+
+ .btn-delete {
+    background-color:red;
+    color:rgb(19, 25, 55);
+    border: none;
+    border-radius: 10px;
+    padding: 20px 10px;
+    cursor: pointer;
+ }
+
+
+ .btn-todo {
+ background-color:rgb(252, 11, 244) ;
+ color:rgb(0, 34, 255);
+ border: none;
+ border-radius: 10000px;
+ padding: 20px 40px;
+ cursor: pointer;
+}
+.nav ul{
+    
+   display: flex;
+   list-style: none;
+     
+ }  
+.nav ul li{
+   margin: 40px;
+   text-align: center;
+    
+    
+}
+.button-container {
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+   column-gap: 10px;
+   row-gap: 15px;
+   color: rgb(19, 240, 74);
+   margin-top: 10px;
+   margin-bottom: 10px;
+   align-items: center;
+}
+
+.button-container button {
+   background-color: greenyellow;
+   border: none;
+   border-radius: 10px;
+   padding: 15px 20px;
+   font-size: 18px;
+   cursor: pointer;
+   transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button-container button:hover {
+   background-color: lightgreen;  
+   background: linear-gradient(to right,gold,green,blue, red, yellow,green);
+    -webkit-background-clip: text;
+    color: transparent;
+   transform: scale(1.05);  
+}
+/* .button-container{
+   display: grid;
+   grid-template-columns: 200px 190px 100px;
+   column-gap: 10px;
+   row-gap: 15px;
+   color: rgb(19, 240, 74); 
+   margin-top: 10px ;
+   margin-bottom: 10px;
+   align-items: center;
+   transition: background-color 0.3s ease;  
+   padding: 15px 32px;
+}
+
+.colorful-button:horizontal {
+   background-color: gold;  
+   color: aqua;
+} */
+
+ 
+ /* .date
+{ 
+   text-align:center;}  */
+
+
+
+   /* body {
+      font-family: Arial;
+    }
+    
+    #main-heading {
+      text-align: center;
+    }
+    
+    .grid-container {
+      display: grid;
+      grid-template-columns: 200px 150px 100px;
+      column-gap: 10px;
+      row-gap: 10px;
+      margin-top: 10px;
+      align-items: center;
+    }
+    
+    #todo-input, #todo-date {
+      font-size: 15px;
+      padding: 10px 5px;
+    }
+    
+    .btn-delete {
+      background-color: rgb(87, 4, 4);
+      color: white;
+      border: none;
+      border-radius: 10px;
+      padding: 15px 0px;
+      cursor: pointer;
+    }
+    
+    .btn-todo {
+      background-color: rgb(5, 119, 19);
+      color: white;
+      border: none;
+      border-radius: 10px;
+      padding: 15px 0px;
+      cursor: pointer;
+    } */
