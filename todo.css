@@ -19,7 +19,7 @@
  .Wprofessional{
    background: url("https://writer.me/wp-content/uploads/2019/05/certified-writers-homepage.jpg");
    background-size: cover;
-   background-image: -moz-radial-gradient(cover);
+/*    background-image: -moz-radial-gradient(cover); */
    background-repeat: no-repeat;
 }
 
